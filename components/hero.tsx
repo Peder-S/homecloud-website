@@ -12,15 +12,15 @@ export default function Hero() {
         show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
       }`}
     >
-      <h1 className="text-4xl sm:text-6xl font-bold">Spark Consulting</h1>
+      <h1 className="text-4xl sm:text-6xl font-bold">
+        Spark Consulting 835 906 272
+      </h1>
       <p className="text-lg text-gray-600 dark:text-gray-300">
         Practical consulting for modern teams.
       </p>
       <div className="mt-4 flex flex-col sm:flex-row gap-4">
-        <Button href="/datacenter" className="text-lg">
-          Datacenter Consulting
-        </Button>
-        <Button href="/ai" variant="secondary" className="text-lg">
+        <Button href="/datacenter">Datacenter Consulting</Button>
+        <Button href="/ai" variant="secondary">
           AI Consulting
         </Button>
       </div>

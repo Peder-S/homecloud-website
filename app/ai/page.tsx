@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Section from "@/components/section";
+
 import EmailCapture from "@/components/email-capture";
 
 export const metadata: Metadata = {
@@ -16,7 +17,17 @@ export default function AIPage() {
         We&apos;re building AI solutions for retrieval-augmented generation, agents,
         automation, and internal tooling.
       </p>
-      <EmailCapture />
+      <p className="text-gray-600 dark:text-gray-300">
+        Contact
+        <a
+          href="mailto:peder@spark.consulting.no"
+          className="text-accent underline ml-1"
+        >
+          peder@spark.consulting.no
+        </a>
+        if you&apos;re interested.
+      </p>
+
     </Section>
   );
 }

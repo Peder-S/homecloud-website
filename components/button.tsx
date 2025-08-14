@@ -15,7 +15,7 @@ export default function Button({
   ...props
 }: ButtonProps) {
   const base =
-    "inline-flex items-center justify-center rounded-md px-6 py-3 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-accent transition-colors";
+    "inline-flex items-center justify-center rounded-md px-8 py-4 text-lg font-medium focus:outline-none focus:ring-2 focus:ring-accent transition-colors";
   const variants: Record<string, string> = {
     primary: "bg-accent text-accent-foreground hover:bg-accent/90",
     secondary:

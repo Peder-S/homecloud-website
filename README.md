@@ -1,30 +1,41 @@
 # Spark Consulting Website
 
-A small marketing site for Spark Consulting built with Next.js, TypeScript, and Tailwind CSS.
+Responsive marketing site for Spark Consulting built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It showcases datacenter and future AI consulting services with a clean, accessible design.
 
-## Getting Started
+## Pages
 
-Install dependencies and start the development server:
+- `/` – Hero with CTAs for datacenter and AI consulting.
+- `/datacenter` – Services overview, FAQ, and contact form.
+- `/ai` – "Coming soon" teaser with a mailto link for enquiries.
+- `/about` – Company background and contact information.
+
+## Development
+
+### Prerequisites
+
+- Node.js 18+
+- [pnpm](https://pnpm.io) package manager
+
+### Install & Run
 
 ```bash
 pnpm install
 pnpm dev
 ```
 
-## Building for production
+### Build
 
 ```bash
 pnpm build
+pnpm start
 ```
 
-Then start the server with `pnpm start`.
-
-## Features
+## Tech Highlights
 
 - App Router with typed React components
-- Responsive design with Tailwind CSS
-- Dark mode toggle with persisted preference
-- Contact form and email capture (client-side only)
+- Tailwind CSS styling with light/dark themes and gradient background
+- Reusable UI components (Button, Card, Section, Input, Navbar)
+- Client-side form validation only; no backend dependencies
 
 ## License
 
