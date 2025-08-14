@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Section from "@/components/section";
 
+import EmailCapture from "@/components/email-capture";
+
 export const metadata: Metadata = {
   title: "AI Consulting",
   description:
@@ -25,6 +27,7 @@ export default function AIPage() {
         </a>
         if you&apos;re interested.
       </p>
+
     </Section>
   );
 }

@@ -13,6 +13,7 @@ export default function DatacenterPage() {
   return (
     <Section className="max-w-3xl mx-auto space-y-12 text-center">
       <header className="space-y-4">
+
         <h1 className="text-3xl sm:text-4xl font-bold">Datacenter Consulting</h1>
         <p className="text-gray-600 dark:text-gray-300">
           We deliver hands-on datacenter services for businesses in the Oslo area.
