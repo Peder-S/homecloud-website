@@ -1,7 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-pederspongsveen.wixsite.com	TRUE	/	FALSE	1999999999	XSRF-TOKEN	1720560686|x_SQzIhNE197
-pederspongsveen.wixsite.com	TRUE	/	FALSE	1999999999	SameSite	None
-pederspongsveen.wixsite.com	TRUE	/	FALSE	1999999999	ssr-caching	cache#desc=miss#varnish=miss#dc#desc=84_g
-.wixsite.com	TRUE	/	FALSE	1999999999	TS016e3841	0141ccf485cbca3100c0ada7ef19197a38c862d9a511c8dbab4f9e9b132608448a368307f3e80f01793bc367312e374f2564a85768
-
